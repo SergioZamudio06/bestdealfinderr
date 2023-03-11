@@ -5,11 +5,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import{HttpClientModule} from '@angular/common/http';
+import { HeaderComponent } from './estructura/header/header.component';
+import { FooterComponent } from './estructura/footer/footer.component';
+import { NavComponent } from './estructura/nav/nav.component';
+import { PrincipalComponent } from './modulos/principal.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
